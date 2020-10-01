@@ -12,4 +12,4 @@
     lr = 0.000001
 Метрики точности
 -----------------
-! [hfhf] (https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.1.trainaccuracy.PNG)
+![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.1.trainaccuracy.PNG)
