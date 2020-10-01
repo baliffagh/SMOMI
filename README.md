@@ -9,7 +9,6 @@
     tf.keras.layers.Flatten(),
     tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
         
-    lr = 0.000001
 Метрики точности
 -----------------
 ![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.1.trainaccuracy.PNG)
