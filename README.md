@@ -1,6 +1,7 @@
 Нейросеть 1
 ============
 
+
     tf.keras.layers.Input(shape=(224,224,3)),
     tf.keras.layers.Conv2D(filters=8, kernel_size=3),
     tf.keras.layers.MaxPool2D(),
