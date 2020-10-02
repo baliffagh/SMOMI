@@ -13,13 +13,19 @@
         
 Метрики точности
 -----------------
-![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.1.trainaccuracy.PNG)
+train
+![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.1.trainaccuracy.PNG) 
+
+val
 ![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.1.valaccuracy.PNG)
 
 Функции потерь
 --------------
+train
 ![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.1.trainloss.PNG)
-![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.1.valloss.PNG)
+
+val
+![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.1.valloss.PNG) 
 
 Первая нейронная сеть без внесения изменений.
 
@@ -38,13 +44,19 @@
         
 Метрики точности
 -----------------
-![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.2.trainaccuracy.PNG)
+train
+![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.2.trainaccuracy.PNG) 
+
+val
 ![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.2.valaccuracy.PNG)
 
 Функции потерь
 --------------
+train
 ![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.2.trainloss.PNG)
-![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.2.valloss.PNG)
+
+val
+![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.2.valloss.PNG) 
 
 Мы дабавли еще один слой и мы видим, что точность упала. С добавлением слоя нам требуется бульшее количество эпох, что бы она дообучилась до уровня первой сети.
 
@@ -63,13 +75,19 @@
         
 Метрики точности
 -----------------
-![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.3.trainaccuracy.PNG)
+train
+![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.3.trainaccuracy.PNG) 
+
+val
 ![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.3.valaccuracy.PNG)
 
 Функции потерь
 --------------
+train
 ![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.3.trainloss.PNG)
-![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.3.valloss.PNG)
+
+val
+![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.3.valloss.PNG) 
 
 С добавлением фильтров на слое, нейронная сеть обучается быстрее, но ей все еще не хватает эпох, что бы достичь лучшего результата.
 
@@ -90,13 +108,19 @@
         
 Метрики точности
 -----------------
-![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.4.trainaccuracy.PNG)
+train
+![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.4.trainaccuracy.PNG) 
+
+val
 ![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.4.valaccuracy.PNG)
 
 Функции потерь
 --------------
+train
 ![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.4.trainloss.PNG)
-![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.4.valloss.PNG)
+
+val
+![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.4.valloss.PNG) 
 
 Мы снова добавили слой, точность снова упала и нужно гараздо больше эпох.
 
@@ -117,13 +141,19 @@
         
 Метрики точности
 -----------------
-![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.5.trainaccuracy.PNG)
+train
+![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.5.trainaccuracy.PNG) 
+
+val
 ![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.5.valaccuracy.PNG)
 
 Функции потерь
 --------------
+train
 ![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.5.trainloss.PNG)
-![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.5.valloss.PNG)
+
+val
+![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.5.valloss.PNG) 
 
 С добавлением фильтров на слоях, у нас снова она обучается быстрее, но все еще не хватает эпох.
 
