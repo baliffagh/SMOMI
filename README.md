@@ -22,7 +22,7 @@
 ![.](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.1valaccuracy.PNG)
 ![.](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.1valloss.PNG)
 
-Нейронная сеть с 2 слоями и 8 фильтрами на каждом слое обучилась, примерно за 160-170 эпох, после чего начала деградировать
+Нейронная сеть с 2 слоями и 8 фильтрами на каждом слое обучилась, примерно за 150-170 эпох, после чего начала деградировать. Что мы может отследить по тому, что график потерь начал возростать, а точность начала падать
 
 Нейросеть 2
 ============
@@ -35,12 +35,12 @@
      tf.keras.layers.MaxPool2D(),
      tf.keras.layers.Flatten(),
      tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
-     
+ 
      epochs = 200
      
 Метрики точности:
 -----------
-Оранжевый - тренировочные данные
+Оранжевый - тренировочные данные,
 Синий - валидационные данные
 
 ![.](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.2trainvalaccuracy200.PNG)
@@ -49,11 +49,13 @@
 ------------
 ![.](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.2trainvalloss200.PNG)
 
+Для сети с 3 слоями и количеством фильтров равных 8 8 8, мы пытались так же обучить ее за 200 эпох, но этого оказалось мало. Как 300 и 400 эпох соответственно.
+
        epochs = 300
      
 Метрики точности:
 -----------
-Оранжевый - тренировочные данные
+Оранжевый - тренировочные данные,
 Синий - валидационные данные
 
 ![.](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.2trainvalaccuracy300.PNG)
