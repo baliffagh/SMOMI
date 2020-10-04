@@ -22,7 +22,7 @@
 ![.](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.1valaccuracy.PNG)
 ![.](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.1valloss.PNG)
 
-Нейронная сеть с 2 слоями и 8 фильтрами на каждом слое обучилась за 200 эпох.
+Нейронная сеть с 2 слоями и 8 фильтрами на каждом слое обучилась, примерно за 160-170 эпох, после чего начала деградировать
 
 Нейросеть 2
 ============
@@ -49,7 +49,7 @@
 ------------
 ![.](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.2trainvalloss200.PNG)
 
-epochs = 300
+       epochs = 300
      
 Метрики точности:
 -----------
@@ -62,7 +62,7 @@ epochs = 300
 ------------
 ![.](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.2trainvalloss300.PNG)
 
-epochs = 400
+    epochs = 400
      
 Метрики точности:
 -----------
