@@ -22,6 +22,8 @@
 ![.](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.1valaccuracy.PNG)
 ![.](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.1valloss.PNG)
 
+Нейронная сеть с 2 слоями и 8 фильтрами на каждом слое обучилась за 200 эпох.
+
 Нейросеть 2
 ============
      tf.keras.layers.Input(shape=(224,224,3)),
@@ -34,7 +36,47 @@
      tf.keras.layers.Flatten(),
      tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
      
+     epochs = 200
+     
+Метрики точности:
+-----------
+Оранжевый - тренировочные данные
+Синий - валидационные данные
+
+![.](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.2trainvalaccuracy200.PNG)
+
+Функция потерь
+------------
+![.](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.2trainvalloss200.PNG)
+
+epochs = 300
+     
+Метрики точности:
+-----------
+Оранжевый - тренировочные данные
+Синий - валидационные данные
+
+![.](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.2trainvalaccuracy300.PNG)
+
+Функция потерь
+------------
+![.](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.2trainvalloss300.PNG)
+
+epochs = 400
+     
+Метрики точности:
+-----------
+Оранжевый - тренировочные данные
+Синий - валидационные данные
+
+![.](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.2trainvalaccuracy400.PNG)
+
+Функция потерь
+------------
+![.](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.2trainvalloss400.PNG)
+
      epochs = 250
+     
 Тренировочные данные:
  -------
 ![.](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.2trainaccuracy250.PNG)
