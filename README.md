@@ -34,7 +34,17 @@
      tf.keras.layers.Flatten(),
      tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
      
-     epochs = 
+     epochs = 250
+Тренировочные данные:
+ -------
+![.](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.2trainaccuracy250.PNG)
+![.](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.2trainloss250.PNG)
+
+Валидационные данные:
+------
+![.](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.2valaccuracy250.PNG)
+![.](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.2valloss250.PNG)
+
 Нейросеть 3
 ============  
         tf.keras.layers.Input(shape=(224,224,3)),
