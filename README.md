@@ -10,90 +10,37 @@
     tf.keras.layers.MaxPool2D(),
     tf.keras.layers.Flatten(),
     tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
-        
-Метрики точности
------------------
-train
-![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.1.trainaccuracy.PNG) 
-
-val
-![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.1.valaccuracy.PNG)
-
-Функции потерь
---------------
-train
-![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.1.trainloss.PNG)
-
-val
-![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.1.valloss.PNG) 
-
-Первая нейронная сеть без внесения изменений.
+    
+    epochs = 200
 
 Нейросеть 2
 ============
-
-        tf.keras.layers.Input(shape=(224,224,3)),
-        tf.keras.layers.Conv2D(filters=8, kernel_size=3),
-        tf.keras.layers.MaxPool2D(),
-        tf.keras.layers.Conv2D(filters=8, kernel_size=3),
-        tf.keras.layers.MaxPool2D(),
-        tf.keras.layers.Conv2D(filters=8, kernel_size=3),
-        tf.keras.layers.MaxPool2D(),
-        tf.keras.layers.Flatten(),
-        tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
-        
-Метрики точности
------------------
-train
-![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.2.trainaccuracy.PNG) 
-
-val
-![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.2.valaccuracy.PNG)
-
-Функции потерь
---------------
-train
-![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.2.trainloss.PNG)
-
-val
-![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.2.valloss.PNG) 
-
-Мы дабавли еще один слой и мы видим, что точность упала. С добавлением слоя нам требуется бульшее количество эпох, что бы она дообучилась до уровня первой сети.
-
+     tf.keras.layers.Input(shape=(224,224,3)),
+     tf.keras.layers.Conv2D(filters=8, kernel_size=3),
+     tf.keras.layers.MaxPool2D(),
+     tf.keras.layers.Conv2D(filters=8, kernel_size=3),
+     tf.keras.layers.MaxPool2D(),
+     tf.keras.layers.Conv2D(filters=8, kernel_size=3),
+     tf.keras.layers.MaxPool2D(),
+     tf.keras.layers.Flatten(),
+     tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
+     
+     epochs = 
 Нейросеть 3
-============
-
+============  
         tf.keras.layers.Input(shape=(224,224,3)),
         tf.keras.layers.Conv2D(filters=32, kernel_size=3),
         tf.keras.layers.MaxPool2D(),
-        tf.keras.layers.Conv2D(filters=8, kernel_size=3),
+        tf.keras.layers.Conv2D(filters=16, kernel_size=3),
         tf.keras.layers.MaxPool2D(),
         tf.keras.layers.Conv2D(filters=8, kernel_size=3),
         tf.keras.layers.MaxPool2D(),
         tf.keras.layers.Flatten(),
         tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
         
-Метрики точности
------------------
-train
-![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.3.trainaccuracy.PNG) 
-
-val
-![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.3.valaccuracy.PNG)
-
-Функции потерь
---------------
-train
-![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.3.trainloss.PNG)
-
-val
-![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.3.valloss.PNG) 
-
-С добавлением фильтров на слое, нейронная сеть обучается быстрее, но ей все еще не хватает эпох, что бы достичь лучшего результата.
-
+        epochs = 
 Нейросеть 4
-============
-
+============  
         tf.keras.layers.Input(shape=(224,224,3)),
         tf.keras.layers.Conv2D(filters=32, kernel_size=3),
         tf.keras.layers.MaxPool2D(),
@@ -106,31 +53,14 @@ val
         tf.keras.layers.Flatten(),
         tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
         
-Метрики точности
------------------
-train
-![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.4.trainaccuracy.PNG) 
-
-val
-![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.4.valaccuracy.PNG)
-
-Функции потерь
---------------
-train
-![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.4.trainloss.PNG)
-
-val
-![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.4.valloss.PNG) 
-
-Мы снова добавили слой, точность снова упала и нужно гараздо больше эпох.
-
+        epochs = 
 Нейросеть 5
 ============
 
         tf.keras.layers.Input(shape=(224,224,3)),
-        tf.keras.layers.Conv2D(filters=32, kernel_size=3),
+        tf.keras.layers.Conv2D(filters=64, kernel_size=3),
         tf.keras.layers.MaxPool2D(),
-        tf.keras.layers.Conv2D(filters=16, kernel_size=3),
+        tf.keras.layers.Conv2D(filters=32, kernel_size=3),
         tf.keras.layers.MaxPool2D(),
         tf.keras.layers.Conv2D(filters=16, kernel_size=3),
         tf.keras.layers.MaxPool2D(),
@@ -139,22 +69,19 @@ val
         tf.keras.layers.Flatten(),
         tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
         
-Метрики точности
------------------
-train
-![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.5.trainaccuracy.PNG) 
-
-val
-![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.5.valaccuracy.PNG)
-
-Функции потерь
---------------
-train
-![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.5.trainloss.PNG)
-
-val
-![hfhf](https://github.com/baliffagh/SMOMI/blob/Lab2/graph/2.5.valloss.PNG) 
-
-С добавлением фильтров на слоях, у нас снова она обучается быстрее, но все еще не хватает эпох.
-
-Можно сделать вывод, что для хорошего обучения с увеличением слоев нужно увеличивать количество эпох и количество фильтров на слоях.
+        epochs = 
+Нейросеть 6
+============ 
+        tf.keras.layers.Input(shape=(224,224,3)),
+        tf.keras.layers.Conv2D(filters=8, kernel_size=3),
+        tf.keras.layers.MaxPool2D(),
+        tf.keras.layers.Conv2D(filters=16, kernel_size=3),
+        tf.keras.layers.MaxPool2D(),
+        tf.keras.layers.Conv2D(filters=32, kernel_size=3),
+        tf.keras.layers.MaxPool2D(),
+        tf.keras.layers.Conv2D(filters=64, kernel_size=3),
+        tf.keras.layers.MaxPool2D(),
+        tf.keras.layers.Flatten(),
+        tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
+        
+        epochs = 
