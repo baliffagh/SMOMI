@@ -11,11 +11,51 @@
     weights=None)
     lr = 0.000001
     
+Метрики точности:
+ -------
+ 
+Зеленый - валидационные данные, розовый - тренировочные данные
+ 
+![.](https://github.com/baliffagh/SMOMI/blob/Lab3/graph/3.1.1trainvalaccuracy.PNG)
+
+Функции потерь:
+------
+
+Зеленый - валидационные данные, розовый - тренировочные данные
+
+![.](https://github.com/baliffagh/SMOMI/blob/Lab3/graph/3.1.1trainvalloss.PNG)
     
     lr=0.0001
     
+Метрики точности:
+ -------
+ 
+Синий - валидационные данные, оранжевый - тренировочные данные
+ 
+![.](https://github.com/baliffagh/SMOMI/blob/Lab3/graph/3.1.2trainvalaccuracy.PNG)
+
+Функции потерь:
+------
+
+Синий - валидационные данные, оранжевый - тренировочные данные
+
+![.](https://github.com/baliffagh/SMOMI/blob/Lab3/graph/3.1.2trainvalloss.PNG)
     
     lr=0.0000001
+    
+Метрики точности:
+ -------
+ 
+Синий - валидационные данные, оранжевый - тренировочные данные
+ 
+![.](https://github.com/baliffagh/SMOMI/blob/Lab3/graph/3.1.3trainvalaccuracy.PNG)
+
+Функции потерь:
+------
+
+Синий - валидационные данные, оранжевый - тренировочные данные
+
+![.](https://github.com/baliffagh/SMOMI/blob/Lab3/graph/3.1.3trainvalloss.PNG)
     
 Задача 3.3 c
 ============
