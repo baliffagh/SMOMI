@@ -140,7 +140,7 @@
  
 Голубой - валидационные данные, Красный - тренировочные данные
  
-![.](https://github.com/baliffagh/SMOMI/blob/Lab3/graph/3.2.3trainvalaccuracy.PNG)
+![.](https://github.com/baliffagh/SMOMI/blob/Lab3/graph/3.3.3trainvalaccuracy.PNG)
 
 Функции потерь:
 ------
@@ -169,3 +169,52 @@
 ============
 
 Применяя процедуру модификации весов согласно метода градиентного спуска ко всей нейронной сети, предобученной в пункте 3d обучили нейронную сеть с разными темпами обучения
+
+    lr=0.000001
+    
+Метрики точности:
+ -------
+ 
+ Синий - валидационные данные, оранжевый - тренировочные данные
+ 
+![.](https://github.com/baliffagh/SMOMI/blob/Lab3/graph/3.4.1trainvalaccuracy.PNG)
+
+Функции потерь:
+------
+
+Синий - валидационные данные, оранжевый - тренировочные данные
+
+![.](https://github.com/baliffagh/SMOMI/blob/Lab3/graph/3.4.1trainvalloss.PNG)
+
+    lr=0.0001
+    
+Метрики точности:
+ -------
+ 
+Синий - валидационные данные, оранжевый - тренировочные данные
+ 
+![.](https://github.com/baliffagh/SMOMI/blob/Lab3/graph/3.4.3trainvalaccuracy.PNG)
+
+Функции потерь:
+------
+
+Синий - валидационные данные, оранжевый - тренировочные данные
+
+![.](https://github.com/baliffagh/SMOMI/blob/Lab3/graph/3.4.2trainvalloss.PNG)
+
+    lr=0.0000005
+    
+Метрики точности:
+ -------
+ 
+Синий - валидационные данные, оранжевый - тренировочные данные
+ 
+![.](https://github.com/baliffagh/SMOMI/blob/Lab3/graph/3.4.3trainvalaccuracy.PNG)
+
+Функции потерь:
+------
+
+Синий - валидационные данные, оранжевый - тренировочные данные
+
+![.](https://github.com/baliffagh/SMOMI/blob/Lab3/graph/3.4.3trainvalloss.PNG)
+
