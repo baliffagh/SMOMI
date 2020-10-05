@@ -140,7 +140,7 @@
  
 Голубой - валидационные данные, Красный - тренировочные данные
  
-![.](https://github.com/baliffagh/SMOMI/blob/Lab3/graph/3.3.3trainvalaccuracy.PNG)
+![.](https://github.com/baliffagh/SMOMI/blob/Lab3/graph/3.3.2trainvalaccuracy.PNG)
 
 Функции потерь:
 ------
@@ -193,7 +193,7 @@
  
 Синий - валидационные данные, оранжевый - тренировочные данные
  
-![.](https://github.com/baliffagh/SMOMI/blob/Lab3/graph/3.4.3trainvalaccuracy.PNG)
+![.](https://github.com/baliffagh/SMOMI/blob/Lab3/graph/3.4.2trainvalaccuracy.PNG)
 
 Функции потерь:
 ------
