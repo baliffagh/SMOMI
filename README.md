@@ -8,11 +8,13 @@
 Метрики точности
 -
 Синий - валидационные данные, оранжевый - тренировочные данные
+
 ![.](https://github.com/baliffagh/SMOMI/blob/Lab4/graph/4fliptrainvalacc.PNG)
 
 Функции потерь
 -
 Синий - валидационные данные, оранжевый - тренировочные данные
+
 ![.](https://github.com/baliffagh/SMOMI/blob/Lab4/graph/4fliptrainvalloss.PNG)
 
 
@@ -23,11 +25,13 @@
 Метрики точности
 -
 Синий - валидационные данные, оранжевый - тренировочные данные
+
 ![.]()
 
 Функции потерь
 -
 Синий - валидационные данные, оранжевый - тренировочные данные
+
 ![.]()
 
 3.Изменение яркости и контраста
@@ -39,11 +43,13 @@
 Метрики точности
 -
 Синий - валидационные данные, оранжевый - тренировочные данные
+
 ![.](https://github.com/baliffagh/SMOMI/blob/Lab4/graph/4.1BCtrainvalacc.PNG)
 
 Функции потерь
 -
 Синий - валидационные данные, оранжевый - тренировочные данные
+
 ![.](https://github.com/baliffagh/SMOMI/blob/Lab4/graph/4.1BCtrainvalloss.PNG)
 
 2сеть
@@ -54,11 +60,13 @@
 Метрики точности
 -
 Синий - валидационные данные, оранжевый - тренировочные данные
+
 ![.](https://github.com/baliffagh/SMOMI/blob/Lab4/graph/4.2BCtrainvalacc.PNG)
 
 Функции потерь
 -
 Синий - валидационные данные, оранжевый - тренировочные данные
+
 ![.](https://github.com/baliffagh/SMOMI/blob/Lab4/graph/4.2BCtrainvalloss.PNG)
 
 3 сеть
@@ -69,11 +77,13 @@
 Метрики точности
 -
 Синий - валидационные данные, оранжевый - тренировочные данные
+
 ![.](https://github.com/baliffagh/SMOMI/blob/Lab4/graph/4.3BCtrainvalacc.PNG)
 
 Функции потерь
 -
 Синий - валидационные данные, оранжевый - тренировочные данные
+
 ![.](https://github.com/baliffagh/SMOMI/blob/Lab4/graph/4.3BCtrainvalloss.PNG)
 
 4.Добавление гауссового шума
@@ -86,11 +96,13 @@
 Метрики точности
 -
 Синий - валидационные данные, оранжевый - тренировочные данные
+
 ![.](https://github.com/baliffagh/SMOMI/blob/Lab4/graph/4.1Gausstrainvalacc.PNG)
 
 Функции потерь
 -
 Синий - валидационные данные, оранжевый - тренировочные данные
+
 ![.](https://github.com/baliffagh/SMOMI/blob/Lab4/graph/4.1Gausstrainvalloss.PNG)
 
 2сеть
@@ -101,11 +113,13 @@
 Метрики точности
 -
 Синий - валидационные данные, оранжевый - тренировочные данные
+
 ![.](https://github.com/baliffagh/SMOMI/blob/Lab4/graph/4.2Gausstrainvalacc.PNG)
 
 Функции потерь
 -
 Синий - валидационные данные, оранжевый - тренировочные данные
+
 ![.](https://github.com/baliffagh/SMOMI/blob/Lab4/graph/4.2Gausstrainvalacc.PNG)
 
 3 сеть
@@ -116,9 +130,11 @@
 Метрики точности
 -
 Синий - валидационные данные, оранжевый - тренировочные данные
+
 ![.](https://github.com/baliffagh/SMOMI/blob/Lab4/graph/4.3Gausstrainvalacc.PNG)
 
 Функции потерь
 -
 Синий - валидационные данные, оранжевый - тренировочные данные
+
 ![.](https://github.com/baliffagh/SMOMI/blob/Lab4/graph/4.3Gausstrainvalacc.PNG)
