@@ -120,7 +120,7 @@
 -
 Синий - валидационные данные, оранжевый - тренировочные данные
 
-![.](https://github.com/baliffagh/SMOMI/blob/Lab4/graph/4.2Gausstrainvalacc.PNG)
+![.](https://github.com/baliffagh/SMOMI/blob/Lab4/graph/4.2Gausstrainvalloss.PNG)
 
 3 сеть
 -
