@@ -88,42 +88,7 @@
 
 4.Добавление гауссового шума
 ========================
-1 сеть
--
-    with tf.name_scope('Add_gaussian_noise'):
-        noise_img = image + tf.random.normal(shape=tf.shape(image), mean=0.0, stddev=(50)/(255), dtype=tf.float32)
-        noise_img = tf.clip_by_value(noise_img, 0.0, 1.0)
-Метрики точности
--
-Синий - валидационные данные, оранжевый - тренировочные данные
 
-![.](https://github.com/baliffagh/SMOMI/blob/Lab4/graph/4.1Gausstrainvalacc.PNG)
-
-Функции потерь
--
-Синий - валидационные данные, оранжевый - тренировочные данные
-
-![.](https://github.com/baliffagh/SMOMI/blob/Lab4/graph/4.1Gausstrainvalloss.PNG)
-
-2сеть
--
-    with tf.name_scope('Add_gaussian_noise'):
-        noise_img = image + tf.random.normal(shape=tf.shape(image), mean=0.0, stddev=(100)/(255), dtype=tf.float32)
-        noise_img = tf.clip_by_value(noise_img, 0.0, 1.0)
-Метрики точности
--
-Синий - валидационные данные, оранжевый - тренировочные данные
-
-![.](https://github.com/baliffagh/SMOMI/blob/Lab4/graph/4.2Gausstrainvalacc.PNG)
-
-Функции потерь
--
-Синий - валидационные данные, оранжевый - тренировочные данные
-
-![.](https://github.com/baliffagh/SMOMI/blob/Lab4/graph/4.2Gausstrainvalloss.PNG)
-
-3 сеть
--
     with tf.name_scope('Add_gaussian_noise'):
         noise_img = image + tf.random.normal(shape=tf.shape(image), mean=0.0, stddev=1.0, dtype=tf.float32)
         noise_img = tf.clip_by_value(noise_img, 0.0, 1.0)
